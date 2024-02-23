@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DB\tablescript.txt" />
     <Content Include="Index.aspx" />
     <Content Include="IPExample.aspx" />
     <Content Include="QSExample.aspx" />

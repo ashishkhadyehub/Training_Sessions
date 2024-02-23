@@ -32,15 +32,8 @@
                     <asp:ListItem Text="Pune" Value="PUN"></asp:ListItem>
                 </asp:DropDownList>
             </div>
-            <div class="form-group">
-                <asp:Label runat="server" Text="DOB"></asp:Label>
-                <asp:TextBox ID="txtDOB" TextMode="DateTimeLocal" CssClass="form-control"  runat="server"></asp:TextBox>
-            </div>
-            <div class="form-group">
-                <asp:Label runat="server" Text="Set Password"></asp:Label>
-                <asp:TextBox ID="TextBox1" TextMode="Password" CssClass="form-control" placeholder="Set Password" runat="server"></asp:TextBox>
-            </div>
-            <asp:Button runat="server" CssClass="btn btn-primary" Text="Register" />
+            
+            <asp:Button runat="server" ID="btnSubmit" OnClick="btnSubmit_Click" CssClass="btn btn-primary" Text="Register" />
 
         </div>
     </div>
